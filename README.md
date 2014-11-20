@@ -26,3 +26,8 @@ How?  Steps taken from [this article](http://askubuntu.com/questions/477551/how-
 * sudo gpasswd -a ${USER} docker
 * sudo service docker restart
 * newgrp docker
+
+# References
+
+* [Alternatives to ssh -X](http://stackoverflow.com/questions/25281992/alternatives-to-ssh-x11-forwarding-for-docker-containers)
+* [Docker with X Forwarding](http://catch-0x16.blogspot.com/2014/09/docker-with-x-forwarding.html)
