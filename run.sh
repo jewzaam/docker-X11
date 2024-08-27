@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker run -i -t --rm -e DISPLAY=$DISPLAY -u $USER -v /tmp/.X11-unix:/tmp/.X11-unix nmalik/x11:fedora "$@"
+docker run -it --rm -e DISPLAY -v $XAUTHORITY:/root/.Xauthority -v /tmp/.X11-unix:/tmp/.X11-unix nmalik/x11:fedora "$@"
